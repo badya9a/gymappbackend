@@ -1,4 +1,3 @@
-import 'colors'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import express from 'express'
@@ -44,8 +43,7 @@ async function main() {
 	app.listen(
 		PORT,
 		console.log(
-			`🚀 Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.blue
-				.bold
+			`🚀 Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
 		)
 	)
 }
