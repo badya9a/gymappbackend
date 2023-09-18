@@ -8,8 +8,8 @@
 		"node": ">18 <=20.4"
 	},
 	"scripts": {
-		"dev": "nodemon ./server.js",
-		"start": "node ./server.js"
+		"dev": "nodemon ./index.js",
+		"start": "node ./index.js"
 	},
 	"keywords": [
 		"workout",
